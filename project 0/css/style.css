@@ -1,0 +1,49 @@
+.container{
+    text-align: center;
+    margin-top: 150px;
+}
+
+.google-img{
+    margin: 0;
+    height: 100px;
+    width: 300px
+}
+
+.search{
+    width: 640px;
+    margin: 0 auto;
+    border:1px solid gray;
+    border-radius: 25px;
+}
+
+.search-bar{
+    width: 550px;
+    padding-top: 10px;
+    font-size: 18px;
+    border: none;
+    outline: none;
+    margin-bottom: 10px;
+}
+
+.search-icon{
+    position: relative;
+    height: 15px;
+    margin-top: 15px;
+    width: 15px;
+    margin-left: -40px;
+}
+
+.btn-container{
+    margin-top: 2%;
+}
+
+.search-btn{
+    height: 40px;
+    border:none;
+    margin-left: 10px;
+}
+
+.search-btn:hover{
+    color:rgb(37,38,38);
+    border: 1px solid lightgrey;
+}

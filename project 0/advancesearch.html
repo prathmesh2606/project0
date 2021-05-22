@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<hmtl lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Google Advance Search</title>
+        <link rel="stylesheet" href="css/nav.css">
+        <link rel="stylesheet" href="css/advancesearch.css">
+    </head>
+    <body>
+        <nav>
+            <a href="googleimage.html">Google Images</a>
+            <a href="index.html">Back to Google Search</a>
+        </nav>
+        <div class="container">
+            <h4>Advanced Search</h4>
+            <hr>
+            <form action="https://google.com/search">
+            <div class="grid">
+                <div class="grid-item main-header">
+                    <h5>Find pages with..</h5>
+                </div>
+                <div class="grid-item main-header-2">
+                    <h5 class="second-label">To do this in the search box</h5>
+                </div>
+
+                <!--1-->
+                <div class="grid-item">
+                    <label for="">
+                        all these words:
+                    </label>
+                </div>
+
+                <div class = "grid-item">
+                    <input type="text" name="as_q" class="inp">
+                </div>
+
+                <div class="grid-item second-label">
+                    Type important words: tir-color rat terrier
+                </div>
+
+                <!--2-->
+                <div class="grid-item">
+                    <label for="">
+                        this exact word or phrase:
+                    </label>
+                </div>
+
+                <div class = "grid-item">
+                    <input type="text" name="as_epq" class="inp">
+                </div>
+
+                <div class="grid-item second-label">
+                    Put Exact words in quotes: "rat terrier"
+                </div>
+
+                <!--3-->
+                <div class="grid-item">
+                    <label for="">
+                        any of these words:
+                    </label>
+                </div>
+
+                <div class = "grid-item">
+                    <input type="text" name="as_oq" class="inp">
+                </div>
+
+                <div class="grid-item second-label">
+                    Type OR between all the words you want: miniatur OR standard
+                </div>
+
+                <!--4-->
+                <div class="grid-item">
+                    <label for="">
+                        none of these words:
+                    </label>
+                </div>
+
+                <div class = "grid-item">
+                    <input type="text" name="as_eq" class="inp">
+                </div>
+
+                <div class="grid-item second-label">
+                    Put a minus sign just before words that you don't want: -rodent, -"Jack Russell"
+                </div>
+
+                <!--5-->
+                <div class="grid-item">
+                    <label for="">
+                        numbers ranging from
+                    </label>
+                </div>
+
+                <div class = "grid-item">
+                    <input type="text" name="as_nlo" class="num-inp">
+                    <span>to</span>
+                    <input type="text" name="as_nhi" class="num-inp">
+                </div>
+
+                <div class="grid-item second-label">
+                    Put two full stops between the numbers and add a unit of measurment: 10..35 Kg, £300..£500, 2010..2011
+                </div>
+            </div>
+
+            <!--Advance Search Button-->
+            <button type="submit">
+                Advanced Search
+            </button>
+            
+            </form>
+        </div>
+    </body>
+</hmtl>
